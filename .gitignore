@@ -1,0 +1,8 @@
+build/
+demo_out/
+__pycache__/
+*.py[cod]
+.DS_Store
+vina
+vina_split
+*.o

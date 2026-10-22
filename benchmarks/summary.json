@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "candidate": "D_column_simd2",
+  "upstream_commit": "3c65c0b3e6c2c1d183f6a175ecb65e3c5ba91645",
+  "variant_labels": {
+    "baseline": "upstream original",
+    "v1": "previous optimized baseline",
+    "v2": "selected final D"
+  },
+  "original_benchmark_json_sha256": "5ccf388d626c0018f58e047c351d934b89d13ed09c9ed6842cf054e6d8452e1b",
+  "benchmark_csv_sha256": "054f8bbee5e7c6b6a623c69395b064013f0ebd46ef6add2417edb18c7b58a1ba",
+  "experiment_start_utc": "2026-10-15T01:24:52.272285+00:00",
+  "experiment_end_utc": "2026-10-15T09:11:00.200632+00:00",
+  "cli_processes": 225,
+  "api_processes": 75,
+  "configurations": 25,
+  "repeats_per_variant": 3,
+  "all_cli_exact": true,
+  "all_api_exact": true,
+  "full_docking": {
+    "configurations": 19,
+    "wall_median_sum_seconds": {
+      "baseline": 3242.524748016149,
+      "v1": 3074.1072660312057,
+      "v2": 2989.230830665678
+    },
+    "D_wall_reduction_pct": {
+      "baseline": 7.811626341647571,
+      "v1": 2.761010856823698
+    }
+  },
+  "score_local": {
+    "configurations": 6,
+    "wall_median_sum_seconds": {
+      "baseline": 6.101404935121536,
+      "v1": 3.5331430211663246,
+      "v2": 3.527749363332987
+    },
+    "D_wall_reduction_pct": {
+      "baseline": 42.18135985326605,
+      "v1": 0.15265891590081626
+    }
+  },
+  "scoring_groups": {
+    "vina": {
+      "configurations": 7,
+      "wall_median_sum_seconds": {
+        "baseline": 1056.89025959,
+        "v1": 974.0961051657796,
+        "v2": 940.6744836345315
+      },
+      "D_wall_reduction_pct": {
+        "baseline": 10.996011638952186,
+        "v1": 3.431039437896133
+      }
+    },
+    "vinardo": {
+      "configurations": 5,
+      "wall_median_sum_seconds": {
+        "baseline": 711.5273544639349,
+        "v1": 656.1207774952054,
+        "v2": 629.0899380221963
+      },
+      "D_wall_reduction_pct": {
+        "baseline": 11.585979923968914,
+        "v1": 4.1197962936338595
+      }
+    },
+    "ad4": {
+      "configurations": 7,
+      "wall_median_sum_seconds": {
+        "baseline": 1474.107133962214,
+        "v1": 1443.8903833702207,
+        "v2": 1419.46640900895
+      },
+      "D_wall_reduction_pct": {
+        "baseline": 3.7066997163494264,
+        "v1": 1.6915393746346652
+      }
+    }
+  },
+  "full_docking_faster_configurations": {
+    "baseline": 19,
+    "v1": 18
+  },
+  "slower_than_v1": [
+    {
+      "case": "basic-vina-score",
+      "wall_increase_pct": 0.24685168921396716
+    },
+    {
+      "case": "basic-vinardo-score",
+      "wall_increase_pct": 0.21107600832070972
+    },
+    {
+      "case": "basic-ad4-score",
+      "wall_increase_pct": 0.2357941070152858
+    },
+    {
+      "case": "basic-ad4-local",
+      "wall_increase_pct": 0.2154812276092155
+    },
+    {
+      "case": "basic-ad4-dock",
+      "wall_increase_pct": 0.3575160108189479
+    }
+  ],
+  "rss": {
+    "full_docking_reduction_pct_vs_original_min": 28.713529345499612,
+    "full_docking_reduction_pct_vs_original_max": 73.26556504517886,
+    "all_configurations_vs_v1": {
+      "lower": 12,
+      "higher": 11,
+      "equal": 2,
+      "delta_mib_min": -0.21875,
+      "delta_mib_max": 0.265625
+    }
+  },
+  "protocol": {
+    "platform": "Linux x86_64",
+    "cpu": "Intel Xeon Platinum 8362",
+    "cpu_affinity": [
+      16,
+      17,
+      18,
+      19
+    ],
+    "shared_host": true,
+    "compiler": "GCC 11.4.0",
+    "boost": "1.82.0",
+    "flags": [
+      "-O3",
+      "-DNDEBUG",
+      "-std=c++14",
+      "-pthread",
+      "-fvisibility=hidden",
+      "-DVERSION=\"v1.2.7-27-g3c65c0b\""
+    ],
+    "fast_math": false,
+    "march_native": false,
+    "fp_contraction_override": false,
+    "full_docking_exhaustiveness": 32,
+    "full_docking_max_evals": 0,
+    "cpu_threads": [
+      1,
+      4
+    ],
+    "seeds": [
+      20261012,
+      20261013
+    ],
+    "serial_processes": true,
+    "warmup_processes": 0,
+    "round_orders": [
+      [
+        "baseline",
+        "v1",
+        "v2"
+      ],
+      [
+        "v1",
+        "v2",
+        "baseline"
+      ],
+      [
+        "v2",
+        "baseline",
+        "v1"
+      ]
+    ],
+    "aggregation": "Sum of each configuration's three-run wall-time median; descriptive, not a significance test",
+    "rss": "wait4 child peak RSS; Linux KiB converted to bytes; MiB = bytes / 1048576"
+  },
+  "validation_limits": [
+    "多配体公共 getter 不支持 raw 坐标；local-only 和柔性受体没有全部 raw 坐标 getter，覆盖能量与 PDBQT。batch 逐配体比较。未执行 Python binding。",
+    "No --write_maps validation; finite tested inputs only, historical nonfinite probes had NaN sign-bit differences",
+    "Same-platform/configuration equivalence; no universal bitwise claim across compilers or arbitrary IEEE-754 inputs",
+    "This publication contains compact measured evidence, not all archived raw experiment directories"
+  ]
+}

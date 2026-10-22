@@ -1,0 +1,39 @@
+{
+  "created_utc": "2026-10-22T07:16:53.128724+00:00",
+  "purpose": "Publication startup and output-equivalence check, not a performance benchmark",
+  "platform": "macOS-27.0-arm64-arm-64bit",
+  "machine": "arm64",
+  "binary_sha256": {
+    "original": "de2c5a0e0d3d690f54fe4e2ae3218fdce593f152a9f54601ffdf739d232b43fa",
+    "D": "264c07d3458af214ff2ebf092ae9539e5ea2b7dae228ff5b0c43830932280e32"
+  },
+  "comparisons": {
+    "score": {
+      "stdout.txt_equal": true,
+      "stderr.txt_equal": true
+    },
+    "dock": {
+      "stdout.txt_equal": true,
+      "stderr.txt_equal": true,
+      "pdbqt_bytes_equal": true,
+      "model_count": 4
+    }
+  },
+  "passed": true,
+  "settings": {
+    "scoring": "vina",
+    "cpu": 1,
+    "seed": 20261022,
+    "exhaustiveness": 8,
+    "max_evals": 0,
+    "num_modes": 9,
+    "modes": [
+      "score_only",
+      "full docking"
+    ],
+    "inputs": "examples/basic"
+  },
+  "compiler": "Apple clang version 21.0.0 (clang-2100.0.123.102)",
+  "boost_version": "1.82.0",
+  "normalization": "Only each run's output directory in stdout/stderr is replaced. PDBQT bytes are compared without normalization."
+}
