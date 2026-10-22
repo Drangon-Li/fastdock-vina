@@ -1,0 +1,703 @@
+{
+  "schema_version": 1,
+  "case": "1iep / basic-vina-dock",
+  "atom_indexing": "Zero-based a/b bond endpoints index atoms; PDBQT serial and structure_atom are one-based.",
+  "atoms": [
+    {
+      "serial": 1,
+      "name": "N",
+      "residue": "UNL     1 ",
+      "type": "N",
+      "index": 0,
+      "structure_atom": 20
+    },
+    {
+      "serial": 2,
+      "name": "C",
+      "residue": "UNL     1 ",
+      "type": "C",
+      "index": 1,
+      "structure_atom": 21
+    },
+    {
+      "serial": 3,
+      "name": "O",
+      "residue": "UNL     1 ",
+      "type": "OA",
+      "index": 2,
+      "structure_atom": 36
+    },
+    {
+      "serial": 4,
+      "name": "H",
+      "residue": "UNL     1 ",
+      "type": "HD",
+      "index": 3,
+      "structure_atom": 48
+    },
+    {
+      "serial": 5,
+      "name": "C",
+      "residue": "UNL     1 ",
+      "type": "A",
+      "index": 4,
+      "structure_atom": 18
+    },
+    {
+      "serial": 6,
+      "name": "C",
+      "residue": "UNL     1 ",
+      "type": "A",
+      "index": 5,
+      "structure_atom": 14
+    },
+    {
+      "serial": 7,
+      "name": "C",
+      "residue": "UNL     1 ",
+      "type": "A",
+      "index": 6,
+      "structure_atom": 15
+    },
+    {
+      "serial": 8,
+      "name": "C",
+      "residue": "UNL     1 ",
+      "type": "A",
+      "index": 7,
+      "structure_atom": 19
+    },
+    {
+      "serial": 9,
+      "name": "C",
+      "residue": "UNL     1 ",
+      "type": "A",
+      "index": 8,
+      "structure_atom": 16
+    },
+    {
+      "serial": 10,
+      "name": "C",
+      "residue": "UNL     1 ",
+      "type": "A",
+      "index": 9,
+      "structure_atom": 17
+    },
+    {
+      "serial": 11,
+      "name": "C",
+      "residue": "UNL     1 ",
+      "type": "C",
+      "index": 10,
+      "structure_atom": 37
+    },
+    {
+      "serial": 12,
+      "name": "N",
+      "residue": "UNL     1 ",
+      "type": "N",
+      "index": 11,
+      "structure_atom": 13
+    },
+    {
+      "serial": 13,
+      "name": "H",
+      "residue": "UNL     1 ",
+      "type": "HD",
+      "index": 12,
+      "structure_atom": 44
+    },
+    {
+      "serial": 14,
+      "name": "C",
+      "residue": "UNL     1 ",
+      "type": "A",
+      "index": 13,
+      "structure_atom": 11
+    },
+    {
+      "serial": 15,
+      "name": "C",
+      "residue": "UNL     1 ",
+      "type": "A",
+      "index": 14,
+      "structure_atom": 7
+    },
+    {
+      "serial": 16,
+      "name": "C",
+      "residue": "UNL     1 ",
+      "type": "A",
+      "index": 15,
+      "structure_atom": 8
+    },
+    {
+      "serial": 17,
+      "name": "N",
+      "residue": "UNL     1 ",
+      "type": "NA",
+      "index": 16,
+      "structure_atom": 12
+    },
+    {
+      "serial": 18,
+      "name": "C",
+      "residue": "UNL     1 ",
+      "type": "A",
+      "index": 17,
+      "structure_atom": 9
+    },
+    {
+      "serial": 19,
+      "name": "N",
+      "residue": "UNL     1 ",
+      "type": "NA",
+      "index": 18,
+      "structure_atom": 10
+    },
+    {
+      "serial": 20,
+      "name": "C",
+      "residue": "UNL     1 ",
+      "type": "A",
+      "index": 19,
+      "structure_atom": 3
+    },
+    {
+      "serial": 21,
+      "name": "C",
+      "residue": "UNL     1 ",
+      "type": "A",
+      "index": 20,
+      "structure_atom": 1
+    },
+    {
+      "serial": 22,
+      "name": "C",
+      "residue": "UNL     1 ",
+      "type": "A",
+      "index": 21,
+      "structure_atom": 2
+    },
+    {
+      "serial": 23,
+      "name": "C",
+      "residue": "UNL     1 ",
+      "type": "A",
+      "index": 22,
+      "structure_atom": 6
+    },
+    {
+      "serial": 24,
+      "name": "N",
+      "residue": "UNL     1 ",
+      "type": "NA",
+      "index": 23,
+      "structure_atom": 5
+    },
+    {
+      "serial": 25,
+      "name": "C",
+      "residue": "UNL     1 ",
+      "type": "A",
+      "index": 24,
+      "structure_atom": 4
+    },
+    {
+      "serial": 26,
+      "name": "C",
+      "residue": "UNL     1 ",
+      "type": "A",
+      "index": 25,
+      "structure_atom": 22
+    },
+    {
+      "serial": 27,
+      "name": "C",
+      "residue": "UNL     1 ",
+      "type": "A",
+      "index": 26,
+      "structure_atom": 23
+    },
+    {
+      "serial": 28,
+      "name": "C",
+      "residue": "UNL     1 ",
+      "type": "A",
+      "index": 27,
+      "structure_atom": 27
+    },
+    {
+      "serial": 29,
+      "name": "C",
+      "residue": "UNL     1 ",
+      "type": "A",
+      "index": 28,
+      "structure_atom": 24
+    },
+    {
+      "serial": 30,
+      "name": "C",
+      "residue": "UNL     1 ",
+      "type": "A",
+      "index": 29,
+      "structure_atom": 26
+    },
+    {
+      "serial": 31,
+      "name": "C",
+      "residue": "UNL     1 ",
+      "type": "A",
+      "index": 30,
+      "structure_atom": 25
+    },
+    {
+      "serial": 32,
+      "name": "C",
+      "residue": "UNL     1 ",
+      "type": "C",
+      "index": 31,
+      "structure_atom": 28
+    },
+    {
+      "serial": 33,
+      "name": "N",
+      "residue": "UNL     1 ",
+      "type": "NA",
+      "index": 32,
+      "structure_atom": 29
+    },
+    {
+      "serial": 34,
+      "name": "C",
+      "residue": "UNL     1 ",
+      "type": "C",
+      "index": 33,
+      "structure_atom": 30
+    },
+    {
+      "serial": 35,
+      "name": "C",
+      "residue": "UNL     1 ",
+      "type": "C",
+      "index": 34,
+      "structure_atom": 35
+    },
+    {
+      "serial": 36,
+      "name": "C",
+      "residue": "UNL     1 ",
+      "type": "C",
+      "index": 35,
+      "structure_atom": 31
+    },
+    {
+      "serial": 37,
+      "name": "C",
+      "residue": "UNL     1 ",
+      "type": "C",
+      "index": 36,
+      "structure_atom": 34
+    },
+    {
+      "serial": 38,
+      "name": "N",
+      "residue": "UNL     1 ",
+      "type": "N",
+      "index": 37,
+      "structure_atom": 32
+    },
+    {
+      "serial": 39,
+      "name": "C",
+      "residue": "UNL     1 ",
+      "type": "C",
+      "index": 38,
+      "structure_atom": 33
+    },
+    {
+      "serial": 40,
+      "name": "H",
+      "residue": "UNL     1 ",
+      "type": "HD",
+      "index": 39,
+      "structure_atom": 59
+    }
+  ],
+  "bonds": [
+    {
+      "a": 0,
+      "b": 1,
+      "order": 1,
+      "source": "original-sdf"
+    },
+    {
+      "a": 0,
+      "b": 3,
+      "order": 1,
+      "source": "meeko-h-parent"
+    },
+    {
+      "a": 0,
+      "b": 4,
+      "order": 1,
+      "source": "original-sdf"
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "order": 2,
+      "source": "original-sdf"
+    },
+    {
+      "a": 1,
+      "b": 25,
+      "order": 1,
+      "source": "original-sdf"
+    },
+    {
+      "a": 4,
+      "b": 7,
+      "order": 2,
+      "source": "original-sdf"
+    },
+    {
+      "a": 4,
+      "b": 9,
+      "order": 1,
+      "source": "original-sdf"
+    },
+    {
+      "a": 5,
+      "b": 6,
+      "order": 2,
+      "source": "original-sdf"
+    },
+    {
+      "a": 5,
+      "b": 7,
+      "order": 1,
+      "source": "original-sdf"
+    },
+    {
+      "a": 5,
+      "b": 11,
+      "order": 1,
+      "source": "original-sdf"
+    },
+    {
+      "a": 6,
+      "b": 8,
+      "order": 1,
+      "source": "original-sdf"
+    },
+    {
+      "a": 6,
+      "b": 10,
+      "order": 1,
+      "source": "original-sdf"
+    },
+    {
+      "a": 8,
+      "b": 9,
+      "order": 2,
+      "source": "original-sdf"
+    },
+    {
+      "a": 11,
+      "b": 12,
+      "order": 1,
+      "source": "meeko-h-parent"
+    },
+    {
+      "a": 11,
+      "b": 13,
+      "order": 1,
+      "source": "original-sdf"
+    },
+    {
+      "a": 13,
+      "b": 16,
+      "order": 2,
+      "source": "original-sdf"
+    },
+    {
+      "a": 13,
+      "b": 18,
+      "order": 1,
+      "source": "original-sdf"
+    },
+    {
+      "a": 14,
+      "b": 15,
+      "order": 2,
+      "source": "original-sdf"
+    },
+    {
+      "a": 14,
+      "b": 16,
+      "order": 1,
+      "source": "original-sdf"
+    },
+    {
+      "a": 14,
+      "b": 19,
+      "order": 1,
+      "source": "original-sdf"
+    },
+    {
+      "a": 15,
+      "b": 17,
+      "order": 1,
+      "source": "original-sdf"
+    },
+    {
+      "a": 17,
+      "b": 18,
+      "order": 2,
+      "source": "original-sdf"
+    },
+    {
+      "a": 19,
+      "b": 21,
+      "order": 1,
+      "source": "original-sdf"
+    },
+    {
+      "a": 19,
+      "b": 24,
+      "order": 2,
+      "source": "original-sdf"
+    },
+    {
+      "a": 20,
+      "b": 21,
+      "order": 2,
+      "source": "original-sdf"
+    },
+    {
+      "a": 20,
+      "b": 22,
+      "order": 1,
+      "source": "original-sdf"
+    },
+    {
+      "a": 22,
+      "b": 23,
+      "order": 2,
+      "source": "original-sdf"
+    },
+    {
+      "a": 23,
+      "b": 24,
+      "order": 1,
+      "source": "original-sdf"
+    },
+    {
+      "a": 25,
+      "b": 26,
+      "order": 2,
+      "source": "original-sdf"
+    },
+    {
+      "a": 25,
+      "b": 27,
+      "order": 1,
+      "source": "original-sdf"
+    },
+    {
+      "a": 26,
+      "b": 28,
+      "order": 1,
+      "source": "original-sdf"
+    },
+    {
+      "a": 27,
+      "b": 29,
+      "order": 2,
+      "source": "original-sdf"
+    },
+    {
+      "a": 28,
+      "b": 30,
+      "order": 2,
+      "source": "original-sdf"
+    },
+    {
+      "a": 29,
+      "b": 30,
+      "order": 1,
+      "source": "original-sdf"
+    },
+    {
+      "a": 30,
+      "b": 31,
+      "order": 1,
+      "source": "original-sdf"
+    },
+    {
+      "a": 31,
+      "b": 32,
+      "order": 1,
+      "source": "original-sdf"
+    },
+    {
+      "a": 32,
+      "b": 33,
+      "order": 1,
+      "source": "original-sdf"
+    },
+    {
+      "a": 32,
+      "b": 34,
+      "order": 1,
+      "source": "original-sdf"
+    },
+    {
+      "a": 33,
+      "b": 35,
+      "order": 1,
+      "source": "original-sdf"
+    },
+    {
+      "a": 34,
+      "b": 36,
+      "order": 1,
+      "source": "original-sdf"
+    },
+    {
+      "a": 35,
+      "b": 37,
+      "order": 1,
+      "source": "original-sdf"
+    },
+    {
+      "a": 36,
+      "b": 37,
+      "order": 1,
+      "source": "original-sdf"
+    },
+    {
+      "a": 37,
+      "b": 38,
+      "order": 1,
+      "source": "original-sdf"
+    },
+    {
+      "a": 37,
+      "b": 39,
+      "order": 1,
+      "source": "meeko-h-parent"
+    }
+  ],
+  "source": {
+    "structure": {
+      "path": "example/basic_docking/solution/1iep_ligand.sdf",
+      "url": "https://github.com/ccsb-scripps/AutoDock-Vina/blob/3c65c0b3e6c2c1d183f6a175ecb65e3c5ba91645/example/basic_docking/solution/1iep_ligand.sdf",
+      "sha256": "051b8742c32adc05c07fb486a4e7c9327f84e131cee33ac4e6a568d07553eb38"
+    },
+    "pdbqt": {
+      "path": "examples/basic/1iep_ligand.pdbqt",
+      "url": "https://github.com/ccsb-scripps/AutoDock-Vina/blob/3c65c0b3e6c2c1d183f6a175ecb65e3c5ba91645/example/basic_docking/solution/1iep_ligand.pdbqt",
+      "sha256": "15fb35648d8c18c70317842f3a0631b73a19429c710a037ab07310084d579bb8"
+    },
+    "mapping_rule": "Unique same-element source PDBQT-to-SDF/MOL2 coordinate identity within 0.002 Angstrom; connectivity and bond order come from structure bond table. Docked coordinates are never used to infer bonds.",
+    "mapping_max_error_angstrom": 0.0006480740698436612,
+    "meeko_smiles": "Cc1ccc(NC(=O)c2ccc(CN3CC[NH+](C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1",
+    "meeko_smiles_idx": {
+      "6": 1,
+      "7": 2,
+      "8": 3,
+      "5": 5,
+      "24": 6,
+      "2": 7,
+      "23": 8,
+      "3": 9,
+      "4": 10,
+      "1": 11,
+      "25": 12,
+      "26": 14,
+      "30": 15,
+      "29": 16,
+      "37": 17,
+      "28": 18,
+      "27": 19,
+      "31": 20,
+      "33": 21,
+      "32": 22,
+      "34": 23,
+      "35": 24,
+      "36": 25,
+      "9": 26,
+      "10": 27,
+      "22": 28,
+      "11": 29,
+      "21": 30,
+      "12": 31,
+      "13": 32,
+      "14": 33,
+      "15": 34,
+      "20": 35,
+      "16": 36,
+      "19": 37,
+      "17": 38,
+      "18": 39
+    },
+    "meeko_h_parent": [
+      [
+        6,
+        4
+      ],
+      [
+        25,
+        13
+      ],
+      [
+        17,
+        40
+      ]
+    ],
+    "corroborated_branch_pairs": [
+      [
+        1,
+        5
+      ],
+      [
+        6,
+        12
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        15,
+        20
+      ],
+      [
+        2,
+        26
+      ],
+      [
+        31,
+        32
+      ],
+      [
+        32,
+        33
+      ]
+    ],
+    "exported_topology_sha256": "1f283474cc56868ffe9b8bf506496d9b2543f6a97f24691724e19a3d4717f220",
+    "exported_topology_record": "basic-vina-dock.bonds and topology_provenance; historical pose coordinates were not reused"
+  },
+  "input_sha256": {
+    "examples/basic/1iep_ligand.pdbqt": "15fb35648d8c18c70317842f3a0631b73a19429c710a037ab07310084d579bb8",
+    "examples/basic/1iep_receptor.pdbqt": "f13cf3b36f61d87c3b58983e0b8ecf1c3456a685eb86dfe9ccfb139c7bdc2586",
+    "examples/basic/1iep_receptor.box.txt": "3dff08200b5b9c2ca0932c832c9dffc5823b39caec6c92f76be5f7c5ea49d8de"
+  },
+  "limitations": [
+    "Connectivity and bond orders are from the mapped SDF bond table; three polar hydrogen bonds are from Meeko H PARENT metadata.",
+    "No distance-inferred ligand bonds, receptor chemical bonds, metal coordination, or noncovalent interaction lines.",
+    "Topology is reused after matching atom identities, never historical pose coordinates."
+  ]
+}

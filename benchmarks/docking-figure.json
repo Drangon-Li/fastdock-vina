@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "purpose": "Reproducible 1IEP output-coordinate overlay; this is a release startup/equivalence example, not a performance benchmark or experimental affinity validation.",
+  "model": 1,
+  "parameters": {
+    "scoring": "vina",
+    "cpu": 1,
+    "seed": 20261022,
+    "exhaustiveness": 8,
+    "max_evals": 0,
+    "num_modes": 9
+  },
+  "inputs": {
+    "examples/basic/1iep_ligand.pdbqt": "15fb35648d8c18c70317842f3a0631b73a19429c710a037ab07310084d579bb8",
+    "examples/basic/1iep_receptor.pdbqt": "f13cf3b36f61d87c3b58983e0b8ecf1c3456a685eb86dfe9ccfb139c7bdc2586",
+    "examples/basic/1iep_receptor.box.txt": "3dff08200b5b9c2ca0932c832c9dffc5823b39caec6c92f76be5f7c5ea49d8de"
+  },
+  "topology": {
+    "path": "examples/basic/1iep_topology.json",
+    "sha256": "1669203aa5bb8042f9ed47dae4bceee3873c5854f0278b60844984316d0068a4"
+  },
+  "original": {
+    "label": "AutoDock Vina original",
+    "source_record": "launch-validation/dock-original/1iep_out.pdbqt",
+    "output_sha256": "3d3f8562d3958095ff04b2486fe02d49a99934837d7f4daa2dbfda07f4341a01",
+    "binary_sha256": "de2c5a0e0d3d690f54fe4e2ae3218fdce593f152a9f54601ffdf739d232b43fa",
+    "model1_energy_kcal_mol": -13.264,
+    "model1_xyz": [
+      [
+        16.733,
+        51.911,
+        14.85
+      ],
+      [
+        15.729,
+        51.744,
+        15.79
+      ],
+      [
+        14.782,
+        52.503,
+        15.932
+      ],
+      [
+        17.566,
+        51.316,
+        14.968
+      ],
+      [
+        16.755,
+        52.815,
+        13.727
+      ],
+      [
+        15.828,
+        54.711,
+        12.382
+      ],
+      [
+        16.91,
+        54.563,
+        11.401
+      ],
+      [
+        15.761,
+        53.855,
+        13.511
+      ],
+      [
+        17.889,
+        53.537,
+        11.621
+      ],
+      [
+        17.806,
+        52.676,
+        12.774
+      ],
+      [
+        17.045,
+        55.452,
+        10.143
+      ],
+      [
+        14.848,
+        55.692,
+        12.224
+      ],
+      [
+        13.933,
+        55.439,
+        11.823
+      ],
+      [
+        15.091,
+        57.004,
+        12.6
+      ],
+      [
+        14.261,
+        59.23,
+        12.775
+      ],
+      [
+        15.51,
+        59.679,
+        13.32
+      ],
+      [
+        14.1,
+        57.905,
+        12.437
+      ],
+      [
+        16.531,
+        58.715,
+        13.482
+      ],
+      [
+        16.308,
+        57.404,
+        13.122
+      ],
+      [
+        13.088,
+        60.13,
+        12.541
+      ],
+      [
+        11.826,
+        62.29,
+        12.866
+      ],
+      [
+        12.981,
+        61.461,
+        13.125
+      ],
+      [
+        10.786,
+        61.766,
+        12.021
+      ],
+      [
+        10.9,
+        60.484,
+        11.463
+      ],
+      [
+        12.001,
+        59.664,
+        11.692
+      ],
+      [
+        15.794,
+        50.572,
+        16.716
+      ],
+      [
+        17.047,
+        49.844,
+        16.933
+      ],
+      [
+        14.59,
+        50.151,
+        17.398
+      ],
+      [
+        17.078,
+        48.707,
+        17.819
+      ],
+      [
+        14.624,
+        49.036,
+        18.266
+      ],
+      [
+        15.852,
+        48.292,
+        18.496
+      ],
+      [
+        15.788,
+        47.078,
+        19.441
+      ],
+      [
+        17.044,
+        46.703,
+        20.158
+      ],
+      [
+        17.342,
+        47.691,
+        21.258
+      ],
+      [
+        16.977,
+        45.283,
+        20.728
+      ],
+      [
+        18.657,
+        47.329,
+        22.004
+      ],
+      [
+        18.307,
+        44.899,
+        21.455
+      ],
+      [
+        18.592,
+        45.915,
+        22.562
+      ],
+      [
+        19.811,
+        45.524,
+        23.285
+      ],
+      [
+        17.816,
+        45.917,
+        23.24
+      ]
+    ]
+  },
+  "fastdock": {
+    "label": "FastDock Vina",
+    "source_record": "launch-validation/dock-D/1iep_out.pdbqt",
+    "path": "examples/basic/1iep_docked.pdbqt",
+    "output_sha256": "3d3f8562d3958095ff04b2486fe02d49a99934837d7f4daa2dbfda07f4341a01",
+    "binary_sha256": "264c07d3458af214ff2ebf092ae9539e5ea2b7dae228ff5b0c43830932280e32",
+    "model1_energy_kcal_mol": -13.264
+  },
+  "validation": {
+    "full_output_bytes_equal": true,
+    "original_atom_count": 40,
+    "fastdock_atom_count": 40,
+    "heavy_atom_count": 37,
+    "model_count": 4,
+    "atom_identity_equal": true,
+    "all_atom_output_coordinate_rmsd_angstrom": 0.0,
+    "maximum_output_coordinate_difference_angstrom": 0.0,
+    "alignment": "none; atom-identity correspondence in original receptor frame",
+    "precision_note": "RMSD is computed from PDBQT output coordinates rounded to three decimal places (0.001 Angstrom). It is not a claim about unrounded internal coordinates.",
+    "source_status_sha256": "7dc12b81a3126c30f4c5fb4aa5ef52647a32ea6a483cc181bf12196d177e046b",
+    "source_status_record": "launch-validation/status.json; independently executed original and D, both exit_code 0",
+    "export_note": "Original MODEL1 coordinates were extracted from the original output, then compared to the independently executed D output. The byte-identical D file is packaged once; plotting the saved original coordinates against that file is not a new independent docking validation.",
+    "topology_audit": {
+      "source_record": "figure-topology-audit.json",
+      "sha256": "9c138fa16b5cc9319261aa72b881092f1ab603bb4d41681f629274a10042592c",
+      "result": "All 44 ligand bonds, including bond orders and the 3 polar-hydrogen edges, match the mapped original SDF bond table; all 40 current input/output atom identities match.",
+      "receptor_atom_count": 2702,
+      "receptor_ca_count": 274
+    }
+  },
+  "rendering": {
+    "projection": "Orthographic projection of real 3D coordinates; same camera for both variants.",
+    "ligand": "Heavy atoms and SDF bond orders; blue original outer sticks and orange FastDock inner sticks. Hydrogen atoms remain in the RMSD calculation but are hidden in the drawing.",
+    "receptor": "Gray heavy-atom point cloud plus C-alpha backbone trace. The trace joins sequential residues only and omits breaks; it is not an all-atom chemical bond model.",
+    "pocket_cutoff_angstrom": 5.0,
+    "noncovalent_interactions_drawn": false,
+    "camera": "Ligand principal axes (SVD with deterministic sign choice), tilted 18 degrees around the long principal axis; same orthographic projection for both variants."
+  }
+}

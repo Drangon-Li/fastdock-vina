@@ -17,6 +17,8 @@
 
 19 个案例均快于原版，峰值内存（RSS）降低 **28.71%–73.27%**。已测配置的对接 PDBQT 输出与原版逐字节一致；结果仅适用于已测环境和输入。详细数据与验证范围见 [实验记录](docs/BENCHMARKS.md)。
 
+![25 项测试的加速比及汇总指标](docs/figures/speedup-summary.png)
+
 ## 优化方法
 
 - 共享相同原子类型对的评分查找表，减少重复计算与存储。
@@ -62,6 +64,12 @@ mkdir -p demo_out
 ```
 
 结果保存至 `demo_out/1iep_out.pdbqt`。更多参数见 `./build/vina --help`。示例使用 `exhaustiveness=8`，上述性能测试使用 `32`。
+
+## 对接构象
+
+![1iep 配体在受体中的位置及原版与 FastDock 的构象叠加](docs/figures/docking-overlay.png)
+
+左图展示配体在受体中的位置，右图放大 MODEL 1：原版为蓝色，FastDock 为橙色，两者输出坐标完全重合（40 个原子的 RMSD 为 **0.000 Å**，未做结构对齐）。图中保留真实化学键，显示 37 个重原子。[对接输出](examples/basic/1iep_docked.pdbqt) · [图表数据与复现方法](docs/FIGURES.md)。
 
 ## 许可与致谢
 
